@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance sheet</title>
+    <link rel="stylesheet" href="balanceSheet.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>
+                <span class="flex">
+                    <span>AcmeWidgetCorp</span>
+                    <span>Balance Sheet</span>    
+                </span>
+            
+            </h1>
+            <div id="year" aria-hidden="true">
+                <span class="year">2019</span>
+                <span class="year">2020</span>
+                <span class="year">2021</span>
+            </div>
+            <div class="tabe-wrap">
+                <table>
+                    <caption>Asset</caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <th class="sr-only year">2019</th>
+                            <th class="sr-only year">2020</th>
+                            <th class="current year">2021<span class="sr-only year">2021</span></th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody>
+                        <tr class="data">
+                            <td>Cash <span class="description">This is the cash we currently have on hand</span></td>
+                            <td>$25</td>
+                            <td>$30</td>
+                            <td class="current">$28</td>
+                        </tr>
+                        <tr class="data">
+                            <td>Checking <span class="description">Our primary transaction account</span></td>
+                            <td>$56</td>
+                            <td>$60</td>
+                            <td class="current">$58</td>
+                        </tr>
+                        <tr class="data">
+                            <td>Saving <span class="description">fund set a aide for emergencies</span></td>
+                            <td>$500</td>
+                            <td>$550</td>
+                            <td class="current">$520</td>
+                        </tr>
+                        <tr class="total">
+                            <td>Total <span class="sr-only">Asset</span></td>
+                            <td>$579</td>
+                            <td>$736</td>
+                            <td class="current">$750</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <caption>Liability</caption>
+                    <thead>
+                        <td></td>
+                        <th class="sr-only">2019</th>
+                        <th class="sr-only">2020</th>
+                        <th class="current">2021<span class="sr-only">2021</span></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>loans <span class="description">outstanding balance on our startup loan</span></td>
+                            <td>$500</td>
+                            <td>$550</td>
+                            <td class="current">$0</td>
+                        </tr>
+                        <tr>
+                            <td>Expenses <span class="description">Annual anticipated expense such as payroll</span></td>
+                            <td>$200</td>
+                            <td>$250</td>
+                            <td class="current">$200</td>
+                        </tr>
+                        <tr>
+                            <td>Credit <span class="description">The outstanding expenses on our credit</span></td>
+                            <td>$100</td>
+                            <td>$150</td>
+                            <td class="current">$100</td>
+
+                        </tr>
+                        <tr>
+                            <td>Total <span class="sr-only">liability</span></td>
+                            <td>$850</td>
+                            <td>$1100</td>
+                            <td class="current">$1000</td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+                <table>
+                    <caption>Net Worth</caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <th class="sr-only">2019</th>
+                            <th class="sr-only">2020</th>
+                            <th class="sr-only">2021</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="total">
+                            <td>Total<span class="sr-only">Net Worth</span></td>
+                            <td>$-171</td>
+                            <td>$136</td>
+                            <td>$334</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
